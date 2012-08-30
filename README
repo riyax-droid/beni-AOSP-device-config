@@ -1,0 +1,18 @@
+Device Config for Samsung Galaxy Fit (GT-S5670) AOSP-GB
+
+Current Progress:
+-All Hardware and feature is working
+
+Download this and place the folder in the device/samsung folder and and vendor propriatory files and place in vendor/samsung(create if needed) folder.
+in the Terminal enter 
+-> source build/envsetup.sh
+-> lunch Beni-eng
+-> make -j`grep 'processor' /proc/cpuinfo | wc -l`
+
+
+Credits(most important):
+TJ_STYLE AND MARCELLUSBE - As always they r very much helpful to me..... 
+SQUADZONE - FOR THE KERNEL
+slaid480 - for the AOSP device configs for GALAXY ACE....(used another config but forgot the name... wil add as soon as i remember it)
+GOOGLE - For the Beautiful ANDROID
+ME - FOR THE WORK....
